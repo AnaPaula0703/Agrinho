@@ -1,0 +1,155 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(246, 238, 238);
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.imgFundo {
+  height: 1000px;
+  background-image: url('./fazenda.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.conteudo-header {
+  background-color: rgba(238, 243, 243, 0.700);
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 150px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.h2-animal {
+  font-family: "News Cycle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+}
+
+.conteudo-animais {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.porco,
+.vaca,
+.cavalo,
+.ovelha,
+.galinha,
+.coelho,
+.abelha {
+  width: 900px;
+  height: 450px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px rgba(61, 61, 61, 1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.porco:hover,
+.vaca:hover,
+.cavalo:hover,
+.ovelha:hover,
+.galinha:hover,
+.coelho:hover,
+.abelha:hover {
+  box-shadow: 10px 10px 10px rgba(61, 61, 61, 1);
+}
+
+.porco,
+.vaca,
+.cavalo,
+.ovelha,
+.galinha,
+.coelho,
+.abelha {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-vaca {
+  background-image: url('./vaca.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.img-cavalo {
+  background-image: url('./cavalo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.img-ovelha {
+  background-image: url('./ovelha.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.img-porco {
+  background-image: url('./porco.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+
+.img-galinha {
+  background-image: url('./galinha.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.img-coelho {
+  background-image: url('./coelho.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.img-abelha {
+  background-image: url('./abelha.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+
+footer {
+  box-shadow: black 0px 10px 20px;
+  background-color: white;
+}
