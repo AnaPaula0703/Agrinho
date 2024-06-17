@@ -6,9 +6,9 @@ html {
 body {
   text-align: center;
   align-items: center;
+  background-image: url('./');
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(246, 238, 238);
   margin: 0;
   padding: 0;
 
@@ -17,7 +17,7 @@ body {
 
 .imgFundo {
   height: 1000px;
-  background-image: url('./fazenda.jpg');
+  background-image: url('./');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
